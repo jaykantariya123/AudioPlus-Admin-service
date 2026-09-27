@@ -28,10 +28,10 @@
     "express": "^5.2.1",
     "multer": "^2.3.0",
     "nodemon": "^3.1.14",
-    "redis": "^6.2.1",
-    "typescript": "^7.0.2"
+    "redis": "^6.2.1"
   },
   "devDependencies": {
-    "concurrently": "^10.0.5"
+    "concurrently": "^10.0.5",
+    "typescript": "^5.9.2"
   }
 }
