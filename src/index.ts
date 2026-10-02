@@ -65,7 +65,8 @@ app.use("/api/v1", adminRoutes);
 const PORT = process.env.PORT || 3000;
 
 initDb().then(() => {
-    app.listen(PORT, () => {
-        console.log(`Admin service is running on port ${PORT}`);
-    });
+    // app.listen(PORT, () => {
+        console.log(`Admin service is running on port ${PORT || 5000}`);
+    // });
 });
+export default app;
