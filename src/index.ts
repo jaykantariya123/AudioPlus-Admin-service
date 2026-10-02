@@ -69,4 +69,10 @@ initDb().then(() => {
         console.log(`Admin service is running on port ${PORT || 5000}`);
     // });
 });
+
+app.get("/", (req, res) => {
+  res.send("Server is working!");
+});
+
+
 export default app;
